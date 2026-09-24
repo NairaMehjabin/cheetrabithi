@@ -88,20 +88,16 @@ It transforms traditional gallery-based art discovery into a **global, accessibl
 
 ## 💻 Local Setup & Installation Guide
 
-Follow these steps to run the client application locally on your computer:
-
 ### Prerequisites
 Make sure you have Node.js (v18 or higher) and Git installed on your system.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/NairaMehjabin/cheetrabithi.git](https://github.com/NairaMehjabin/cheetrabithi.git)
+git clone https://github.com/NairaMehjabin/cheetrabithi.git
 cd cheetrabithi
-
 2. Install Dependencies
 Bash
 npm install
-
 3. Environment Configuration
 Create a .env.local file in the root directory of the project and configure your environment variables:
 
@@ -112,11 +108,39 @@ NEXTAUTH_URL=http://localhost:3000
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+4. Run the Development Server
+Bash
+npm run dev
 
+---
+
+#### 2. Fixed Local Setup for **Cinnabloom Bakery**
+```markdown
+## 💻 Local Setup & Installation Guide
+
+### Prerequisites
+Make sure you have Node.js (v18 or higher) and Git installed on your system.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/NairaMehjabin/cinnabloom-bakery.git
+cd cinnabloom-bakery
+2. Install Dependencies
+Bash
+npm install
+3. Environment Configuration
+Create a .env.local file in the root directory of the project and add your environment variables:
+
+Code snippet
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id
+NEXT_PUBLIC_GOOGLE_CLIENT_SECRET=your_google_client_secret
+GEMINI_API_KEY=your_gemini_api_key
 4. Run the Development Server
 Bash
 npm run dev
 Open http://localhost:3000 in your browser to view the application!
 ```
+
 🖤 Closing Note
 চিত্রবীথি — ArtHub is not just a project — it is a structured digital ecosystem where art is not just displayed, but experienced, traded, and lived inside.
