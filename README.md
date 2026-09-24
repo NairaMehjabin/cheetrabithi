@@ -2,7 +2,7 @@
 
 > A modern digital art marketplace where creativity meets commerce — a living ecosystem for artists, collectors, and art lovers.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-2ea44f?style=for-the-badge&logo=vercel)](https://chitrabeethi-client.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-2ea44f?style=for-the-badge&logo=vercel)](https://chitrabeethi-client-ten.vercel.app/)
 
 ---
 
@@ -25,7 +25,7 @@ It transforms traditional gallery-based art discovery into a **global, accessibl
 
 ## 🚀 Live Links
 
-* **Client / Web Application:** [https://chitrabeethi-client.vercel.app](https://chitrabeethi-client.vercel.app)
+* **Client / Web Application:** [https://chitrabeethi-client.vercel.app](https://chitrabeethi-client-ten.vercel.app)
 * **Backend Repository:** [Cheetrabithi Server](https://github.com/NairaMehjabin/cheetrabithi-server)
 
 ---
