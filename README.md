@@ -1,38 +1,32 @@
-# 🎨 চিত্রবীথি— ArtHub
+# 🎨 চিত্রবীথি — ArtHub
 
 > A modern digital art marketplace where creativity meets commerce — a living ecosystem for artists, collectors, and art lovers.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-2ea44f?style=for-the-badge&logo=vercel)](https://chitrabeethi-client.vercel.app)
+
 ---
 
-## 🌐 Live Project
-
-🔗 **Live URL:** https://chitrabeethi-client.vercel.app
+![Project Screenshot](./public/project-demo.png)
 
 ---
 
 ## 🧭 Project Overview
 
-**চিত্রবীথি— ArtHub** is a full-stack digital art marketplace built to connect artists with buyers through a seamless, role-based platform.
+**চিত্রবীথি — ArtHub** is a full-stack digital art marketplace built to connect artists with buyers through a seamless, role-based platform.
 
 The system enables:
-- Artists to showcase, manage, and sell their artworks 🖌️  
-- Users to browse, purchase, and interact with art 🖼️  
-- Admins to oversee users, artworks, and transactions ⚙️  
+- **Artists** to showcase, manage, and sell their artworks 🖌️  
+- **Users** to browse, purchase, and interact with art 🖼️  
+- **Admins** to oversee users, artworks, and platform transactions ⚙️  
 
 It transforms traditional gallery-based art discovery into a **global, accessible, and interactive online marketplace**.
 
 ---
 
-## 🎯 Purpose
+## 🚀 Live Links
 
-Traditional art markets are limited by geography and exclusivity. This platform solves that by:
-
-- Democratizing access to original artwork 🌍  
-- Helping emerging artists reach wider audiences 📈  
-- Enabling secure online transactions via payment integration 💳  
-- Providing structured role-based dashboards for all users 🧑‍🎨  
-
-It is designed as both a **technical showcase of full-stack architecture** and a **real-world marketplace simulation**.
+* **Client / Web Application:** [https://chitrabeethi-client.vercel.app](https://chitrabeethi-client.vercel.app)
+* **Backend Repository:** [Cheetrabithi Server](https://github.com/NairaMehjabin/cheetrabithi-server)
 
 ---
 
@@ -72,51 +66,54 @@ It is designed as both a **technical showcase of full-stack architecture** and a
 
 ---
 
-## 🧩 Tech Stack & NPM Packages
+## 🛠️ Tech Stack & Dependencies
 
-### ⚛️ Frontend Framework
-- **Next.js** – Full-stack React framework
-- **React** – Component-based UI system
-- **TypeScript** – Type-safe development
+### ⚛️ Frontend & UI
+* **Framework:** Next.js (App Router), React, TypeScript
+* **Styling:** Tailwind CSS
+* **Animations:** `framer-motion`
+* **Icons:** `lucide-react`
 
-### 🎬 UI & Animation
-- **framer-motion** – Page transitions & animations
-- **lucide-react** – Icon library
+### 🔐 Auth & State
+* **Authentication:** NextAuth.js
+* **HTTP Client:** Axios / Fetch API
 
-### 🔐 Authentication
-- **next-auth** – OAuth + session management
-
-### 🧠 Backend & Services (used indirectly via APIs)
-- **MongoDB** – Database
-- **Stripe** – Payment gateway
-- **imgBB API** – Image upload service
-
-### 🎨 Styling
-- **Tailwind CSS** – Utility-first styling system
+### 🧠 Backend & External Services
+* **Runtime:** Node.js & Express.js
+* **Database:** MongoDB & Mongoose ORM
+* **Payments:** Stripe API
+* **Image Hosting:** imgBB API
 
 ---
 
-## 💡 System Flow
+## 💻 Local Setup & Installation Guide
 
-- Users register or log in via email or Google OAuth  
-- Role-based dashboards are assigned automatically  
-- Artists upload and manage artworks  
-- Users browse and purchase artworks via Stripe  
-- Admin monitors platform activity and analytics  
-- Comments & interactions are enabled based on purchase verification  
+Follow these steps to run the client application locally on your computer:
 
----
+### Prerequisites
+Make sure you have Node.js (v18 or higher) and Git installed on your system.
 
-## 🚀 Status
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/NairaMehjabin/cheetrabithi.git](https://github.com/NairaMehjabin/cheetrabithi.git)
+cd cheetrabithi
+2. Install Dependencies
+Bash
+npm install
+3. Environment Configuration
+Create a .env.local file in the root directory of the project and configure your environment variables:
 
-✔️ Fully Deployed  
-✔️ Production Ready  
-✔️ Role-Based Architecture Implemented  
-✔️ Payment System Integrated  
-✔️ Responsive UI Completed  
+Code snippet
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXTAUTH_SECRET=your_nextauth_secret_here
+NEXTAUTH_URL=http://localhost:3000
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+4. Run the Development Server
+Bash
+npm run dev
+Open http://localhost:3000 in your browser to view the application!
 
----
-
-## 🖤 Closing Note
-
-**চিত্রবীথি— ArtHub** is not just a project — it is a structured digital ecosystem where art is not displayed, but *experienced, traded, and lived inside*.
+🖤 Closing Note
+চিত্রবীথি — ArtHub is not just a project — it is a structured digital ecosystem where art is not just displayed, but experienced, traded, and lived inside.
